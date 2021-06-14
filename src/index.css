@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+html {
+  background-color: #eaf0f2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font: 14px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
 }
+
+.header-user {
+  background-color: #ffffff;;
+  box-shadow: 0 1px 1px #ccc;
+  height: 70px;
+  color: #323232;
+  box-sizing: border-box;
+}
+
+.header-user .header-limiter {
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header-user .header-limiter .icon-brand{
+  margin-top: 10px;
+  padding-right: 50px;
+  border-right: 1px solid #ccc;
+  float: left;
+  font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+  line-height: 40px;
+}
+
+.header-user .header-limiter a img{
+  width: 70%;
+}
+
+.header-user .header-limiter nav {
+  display: flex;
+  line-height: 70px;
+  float: left;
+  margin: 0 0 0 50px;
+  padding: 0;
+  align-content: center;
+  font-weight: 600;
+}
+
+.header-user .header-limiter nav img{
+  width: 30px;
+  margin-right: 5px;
+}
+
+.header-user .header-limiter .header-user-menu {
+  position: relative;
+  float: right;
+  background-color: #FFFFFF;
+  width: 150px;
+  height: 70px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  text-align: center;
+}
+
+.header-user .header-user-menu img {
+  max-width: 30px;
+  margin-top: 6px;
+}
+
+.header-user .header-user-menu .caret {
+  position:absolute;
+  right: 10px;
+}
+
+@media all and (max-width: 800px) {
+  .header-user .header-limiter nav {
+    margin-left: 20px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .header-user .header-limiter nav {
+    display: none;
+  }
+}	
