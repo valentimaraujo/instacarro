@@ -1,0 +1,73 @@
+
+.header-user {
+    background-color: #ffffff;
+    height: 70px;
+    color: #323232;
+    box-sizing: border-box;
+}
+
+.header-user .header-limiter {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-user .header-limiter .icon-brand {
+    margin-top: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+    float: left;
+    font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+
+.header-user .header-limiter a img {
+    width: 70%;
+}
+
+.header-user .header-limiter nav {
+    display: flex;
+    line-height: 70px;
+    float: left;
+    margin: 0 0 0 50px;
+    padding: 0;
+    align-content: center;
+    font-weight: 600;
+}
+
+.header-user .header-limiter nav img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.header-user .header-limiter .header-user-menu {
+    position: relative;
+    float: right;
+    background-color: #FFFFFF;
+    width: 150px;
+    height: 70px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.header-user .header-user-menu img {
+    max-width: 30px;
+    margin-top: 6px;
+}
+
+.header-user .header-user-menu .caret {
+    position: absolute;
+    right: 10px;
+}
+
+@media all and (max-width: 800px) {
+    .header-user .header-limiter nav {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .header-user .header-limiter nav {
+        display: none;
+    }
+}
