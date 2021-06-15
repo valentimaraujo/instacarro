@@ -24,6 +24,8 @@ or
 yarn install
 ```
 
+Copie e renomeie o arquivo ``.env_sample`` para ``.env``
+
 Rodando o frontend:
 
 ```
@@ -33,3 +35,6 @@ yarn start
 ```
 
 O site estará disponível em: localhost:3000
+
+Demo Online:
+http://evodev-instacarro.s3-website-us-east-1.amazonaws.com/
